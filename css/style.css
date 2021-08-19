@@ -1,0 +1,21 @@
+
+.titulo-borde{
+    background: brown;
+    color: white;
+    text-align: center;
+}
+
+nav{
+    background: blueviolet;
+    border: 2px solid;
+}
+
+h2{
+    color: white;
+}
+
+.text-nav{
+    text-align: center;
+}
+
+
