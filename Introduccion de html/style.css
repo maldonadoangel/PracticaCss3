@@ -7,24 +7,16 @@ h1 span{
     color: #037bc0;
 }
 
-a {
+.navegacion {
+    
+}
+
+/** Existen diferentes estilos para escribir css: Modulos, BEM, SMACSS**/
+.enlace {
     text-transform: uppercase;
-}
-
-a {
-    text-transform: lowercase;
-}
-
-nav a{
-    text-transform: uppercase;
-}
-
-.navegacion a{
-    text-transform: lowercase;
-}
-
-#navegacion a{
-    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: bold;
+    color: #037bc0
 }
 
 
