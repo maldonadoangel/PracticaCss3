@@ -3,6 +3,31 @@ h1{
     color: #000
 }
 
-span{
+h1 span{
     color: #037bc0;
 }
+
+a {
+    text-transform: uppercase;
+}
+
+a {
+    text-transform: lowercase;
+}
+
+nav a{
+    text-transform: uppercase;
+}
+
+.navegacion a{
+    text-transform: lowercase;
+}
+
+#navegacion a{
+    text-transform: capitalize;
+}
+
+
+/* Se recomienda utilizar los id cuando vamos a utilizar javascript, normalmente solo deberiamos manejar class para multiples etiquetas*/
+
+
