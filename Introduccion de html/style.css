@@ -33,5 +33,10 @@ h1 span{
     background-color: red;
     width: 200px;
     padding: 20px;
-    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+.nombre-sitio{
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
