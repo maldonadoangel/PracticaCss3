@@ -9,25 +9,26 @@ h1{
     color: #000
 }
 
-h1 span{
-    color: #037bc0;
-}
-
-
-
-/** Existen diferentes estilos para escribir css: Modulos, BEM, SMACSS**/
-.enlace {
-    text-transform: uppercase;
+/* Globales */
+a {
     text-decoration: none;
-    font-weight: bold;
-    color: #037bc0
+    color: #000;
 }
-
 
 /* Se recomienda utilizar los id cuando vamos a utilizar javascript, normalmente solo deberiamos manejar class para multiples etiquetas*/
 
 
-/* Box-model */
+/* Header y navegacion */
+
+.nombre-sitio{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.nombre-sitio span{
+    color: #037bc0;
+}
 
 .sobre-nosotros{
     background-color: red;
@@ -36,7 +37,24 @@ h1 span{
     margin-top: 30px;
 }
 
-.nombre-sitio{
-    margin-top: 50px;
-    margin-bottom: 50px;
+.contenedor-navegacion{
+    border-top: 1px solid #e1e1e1;
+    padding: 20px 0 20px 0px;
 }
+
+.hero {
+    background-image: url('../Introduccion de html/img/principal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+}
+
+
+
+
+
