@@ -42,6 +42,10 @@ a {
     padding: 20px 0 20px 0px;
 }
 
+.nav-principal{
+    display: flex;
+    flex-direction: row;
+}
 .hero {
     background-image: url('../Introduccion de html/img/principal.jpg');
     background-repeat: no-repeat;
